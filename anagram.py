@@ -26,12 +26,27 @@ def anagrams():
 
     # remove any white space and convert strings to lowerclass
 
-    str1 = str.replace(" ", "").lower()
+    str1 = str1.replace(" ", "").lower()
     str2 = str2.replace(" ", "").lower()
 
-    return sorted(str1) == sorted(str2)
+# To check if both strings have the same sorted characteristica
 
-    
+    # return sorted(str1) == sorted(str2)
+
+    anagram1 = sorted(str1)
+
+    anagram2 = sorted(str2)
+
+    if anagram1 == anagram2:
+        print(f'{str1} are anagram of each other {str2}')
+    else:
+        print(f'{str1} are not anagram of each other {str2}')
+
+anagrams()
+
+
+
+
 
 
 
