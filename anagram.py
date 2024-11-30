@@ -29,7 +29,7 @@ def anagrams():
     str1 = str1.replace(" ", "").lower()
     str2 = str2.replace(" ", "").lower()
 
-# To check if both strings have the same sorted characteristica
+# To check if both strings have the same sorted character
 
     # return sorted(str1) == sorted(str2)
 
